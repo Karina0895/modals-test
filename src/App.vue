@@ -1,26 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <VModal title="Archive your profile?" msg="Are you sure you want to archive your profile? You will be able to restore it."/>
+  <VModal title="Your request will be reviewed" msg="Site administrator will review your data and respond to a request"/>
+  <VModal title="Your request will be reviewed" msg="Site administrator will review your data and respond to a request"/>
+  <VModal title="Your request will be reviewed" msg="Site administrator will review your data and respond to a request"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VModal from './components/VModal.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VModal
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: 'Poppins', sans-serif;
 }
 </style>
