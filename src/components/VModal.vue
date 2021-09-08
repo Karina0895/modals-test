@@ -14,7 +14,7 @@
         </div>
         <div class="bg-gray-100 p-6 h-24">
             <div v-if="type === 'error'" class="flex space-x-4 justify-end">
-                <VButton theme="transparent-btn">Continue</VButton>
+                <VButton theme="transparent-btn">Cancel</VButton>
                 <VButton theme="red-btn">Ok</VButton>
             </div>
             <div v-if="type === 'info'" class="flex justify-end">
